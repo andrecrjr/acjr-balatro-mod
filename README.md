@@ -47,5 +47,7 @@ Load the mod in Balatro and verify:
 - ✅ Proper sprite registration system
 - ✅ 1x/2x resolution support
 - ✅ Blueprint compatibility
-- ✅ Configurable mult gain
+- ✅ Dual effect: Enhances hand cards and adds flush scoring bonus
+- ✅ Automatically added to player's collection at start of run
+- ✅ Configurable mult values
 - ✅ Visual feedback (juice effects)
