@@ -10,14 +10,14 @@
 SMODS.Back {
     key = 'dede_deck',
     loc_txt = {
-        name = 'Dede Deck',
+        name = 'Dédé Deck',
         text = {
-            'Start with a {C:attention}Dede Joker{}',
+            'Start with a {C:attention}Dédé Joker{}',
             'for immediate {C:attention}Flush{} synergy'
         }
     },
     config = {
-        jokers = {'dede_joker'}  -- Starts with Dede Joker
+        jokers = {'j_dede_joker'}  -- Fixed: Added 'j_' prefix
     },
     atlas = 'dede_joker_atlas',
     pos = { x = 0, y = 0 }
@@ -161,7 +161,7 @@ function create_card(_type, area, legendary, _rarity, skip_materialize, soulable
     -- Increase chance for Dede Joker in shop
     if _type == 'Joker' and area and area == G.shop_jokers and not forced_key then
         if pseudorandom('dede_shop_boost') < 0.3 then  -- 30% chance to boost Dede Joker
-            _rarity = 1  -- Force common rarity for higher spawn chance
+            _rarity = 4  -- Force common rarity for higher spawn chance
         end
     end
     return original_create_card(_type, area, legendary, _rarity, skip_materialize, soulable, forced_key, key_append)
