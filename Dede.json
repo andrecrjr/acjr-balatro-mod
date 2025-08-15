@@ -1,0 +1,13 @@
+{
+    "id": "DedeJoker",
+    "name": "Dede Joker",
+    "author": ["andrejunior"],
+    "description": "Adds the Dede Joker that enhances cards and boosts Flush hands",
+    "prefix": "dede",
+    "main_file": "Dede.lua",
+    "badge_colour": "708b91",
+    "dependencies": [
+        "Steamodded (>=1.0.0~BETA-0711a)"
+    ],
+    "version": "1.0.0"
+}

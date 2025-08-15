@@ -1,8 +1,0 @@
-<svg width="71" height="95" viewBox="0 0 71 95" xmlns="http://www.w3.org/2000/svg">
-  <rect width="71" height="95" fill="#2a2a2a"/>
-  <circle cx="35.5" cy="25" r="15" fill="#4a4a4a"/>
-  <rect x="15" y="45" width="41" height="8" rx="4" fill="#666"/>
-  <rect x="20" y="60" width="31" height="6" rx="3" fill="#666"/>
-  <rect x="25" y="75" width="21" height="4" rx="2" fill="#666"/>
-  <text x="35.5" y="90" text-anchor="middle" fill="#999" font-size="8" font-family="monospace">DEDE</text>
-</svg>
