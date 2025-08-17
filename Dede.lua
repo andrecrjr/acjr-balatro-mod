@@ -10,7 +10,7 @@
 SMODS.Back {
     key = 'dede_deck',
     loc_txt = {
-        name = 'Dédé Deck',
+        name = 'Dédéck',
         text = {
             'Start with a {C:attention}Dédé Joker{}',
             'for immediate {C:attention}Flush{} synergy'
